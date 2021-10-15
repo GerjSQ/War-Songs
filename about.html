@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta name="viewport" content="with=device-width, initial-
+       scale=1.0">
+        <title>War Songs</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:wght@700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href=""https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css>
+</head>
+<body>
+<section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Songs</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="hideMenu()"></i>
+            </nav>
+            <h1>About us</h1>
+</section>
+
+<!-- about us content-->
+
+<section class="about-us">
+
+   <div class="row">
+       <div class="about-col">
+           <h1>Who are we</h1>
+           <p>We are a small youtube channel uploading Traditional, Nationalistic, Patriotic
+           songs from around the world but especially from Europe but also we have a small Political
+           group on Guilded, Telegram and Discord.</p>
+           <a href="https://www.youtube.com/channel/UChjq32WbjrbLgYOmM_pSsdA/featured" class="hero-btn red-btn" target="_blank">Youtube</a>
+       </div>
+       <div class="about-col">
+           <img src="images/about.jpg">
+       </div>
+    </div>
+
+</section>
+<!-- Footer-->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>War Songs is an Traditional songs channel based on famous events, 
+    Religion, Monarchism, Nationalism, Patriotism etc.</p>
+    <div class="icons">
+    <i class="fas fa-envelope-open-text"></i>
+    </div>
+    <p>Made by Gjergji</p>
+</section>
+
+
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+<script>
+ 
+    var navLinks = document.getElementById("navLinks");
+    fuction showMenu(){
+        navLinks.style.right = "0";
+    }
+    fuction hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+<html>
